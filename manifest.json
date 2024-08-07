@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Temporary Email Generator",
   "version": "1.0",
-  "permissions": ["activeTab", "storage", "notifications"],
+  "permissions": ["storage", "notifications"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
