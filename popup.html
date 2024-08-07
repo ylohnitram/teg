@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temporary Email</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      width: 300px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px 0;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #email {
+      font-size: 14px;
+      margin-bottom: 20px;
+      word-break: break-all;
+      color: #4CAF50;
+      text-decoration: underline;
+    }
+    #emails {
+      text-align: left;
+      margin-top: 20px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .email-item {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .email-item strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .email-body {
+      max-height: 200px;
+      overflow-y: auto;
+      white-space: pre-wrap; /* Přidáme pre-wrap pro zachování formátování */
+    }
+  </style>
+</head>
+<body>
+  <h1>Temporary Email Generator</h1>
+  <button id="generateEmail">Generate Temporary Email</button>
+  <p id="email"></p>
+  <div id="emails"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
